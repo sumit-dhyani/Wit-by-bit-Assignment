@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/StudentsApp/static/css/main.b1b07b3d.css",
-    "main.js": "/StudentsApp/static/js/main.dcf9cc43.js",
-    "static/js/787.573ea6bb.chunk.js": "/StudentsApp/static/js/787.573ea6bb.chunk.js",
-    "index.html": "/StudentsApp/index.html",
-    "main.b1b07b3d.css.map": "/StudentsApp/static/css/main.b1b07b3d.css.map",
-    "main.dcf9cc43.js.map": "/StudentsApp/static/js/main.dcf9cc43.js.map",
-    "787.573ea6bb.chunk.js.map": "/StudentsApp/static/js/787.573ea6bb.chunk.js.map"
+    "main.css": "/Wit-by-bit-Assignment/static/css/main.b1b07b3d.css",
+    "main.js": "/Wit-by-bit-Assignment/static/js/main.e3a86781.js",
+    "static/js/787.573ea6bb.chunk.js": "/Wit-by-bit-Assignment/static/js/787.573ea6bb.chunk.js",
+    "index.html": "/Wit-by-bit-Assignment/index.html",
+    "main.b1b07b3d.css.map": "/Wit-by-bit-Assignment/static/css/main.b1b07b3d.css.map",
+    "main.e3a86781.js.map": "/Wit-by-bit-Assignment/static/js/main.e3a86781.js.map",
+    "787.573ea6bb.chunk.js.map": "/Wit-by-bit-Assignment/static/js/787.573ea6bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1b07b3d.css",
-    "static/js/main.dcf9cc43.js"
+    "static/js/main.e3a86781.js"
   ]
 }
