@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         
-        <div className='row bg-info'>
+        <div className='row d-flex align-items-center bg-info'>
                     <a href='#' className='title col-1 '>No.</a>
                    
                     <a href="#" className='title col-3'>Student Name</a> 

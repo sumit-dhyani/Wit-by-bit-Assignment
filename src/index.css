@@ -12,6 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  margin:20px 58px;
+  height: 100%;
+}
+.main > div{
+  margin:0 0 10px 0;
+}
 .title{
   text-decoration: none;
   color:black;
@@ -23,7 +30,7 @@ code {
   border: 2px solid rgb(136, 115, 156);
   overflow-y:scroll;
   overflow-x:scroll;
-  border-radius: 1.2%;
+  /* border-radius: 1.2%; */
   box-shadow: 2px 2px;
 }
 .containing::-webkit-scrollbar{
@@ -78,4 +85,37 @@ code {
 }
 .buttons button:first-child{
   margin:0 15px;
+}
+@media screen and (max-width:500px){
+  .row{
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    height:50px;
+    overflow: visible;
+  }
+  .row a{
+    padding:5px;
+    margin:0 5px;
+  }
+  
+  
+  .main{
+    margin:5px 5px;
+  }
+  .containing{
+    width:98%;
+    padding:0;
+  }
+  .update .icons{
+    display: flex;
+  }
+  .bg-info{
+    background: transparent !important;
+  }
+  .card{
+    top:5%;
+    left:10%;
+    width:80%
+  }
 }

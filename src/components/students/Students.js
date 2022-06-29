@@ -14,7 +14,7 @@ const Students = ({ index, name, classs, score, Delete,setupdateuser,setupdate }
         }
     }
     return (
-        <div className='row bd my-3'>
+        <div className='row bd d-flex align-items-center'>
             <div className='col-2 col-sm-2  col-md-1'>{index}</div>
             <div className='col-2 col-sm-2 col-md-3'>{name}</div>
             <div className='col-2 col-sm-2 col-md-2'>{classs}th</div>

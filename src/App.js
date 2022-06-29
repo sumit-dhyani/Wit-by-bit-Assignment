@@ -19,13 +19,13 @@ function App() {
   }
   return (
     <div className='main'>
-      <div className='d-flex justify-content-between mx-5 my-3 '>
+      <div className='d-flex justify-content-between  mobile'>
         <h2>Students</h2>
         <button onClick={() => setadd(true)} className='btn btn-primary align-self-end'>+Add</button>
       </div>
-      <div className='containing  mx-5 my-3'>
+      <div className='containing rounded-4 '>
         <Header />
-        {Data ?
+        {Data?.length ?
           Data.map((user, i) => {
             return (
               <Students 
@@ -39,11 +39,12 @@ function App() {
               setupdate={setupdate} />
             )
           })
-          : <h3>Loading.....</h3>
+          : <h3 style={{display:"flex",justifyContent:"center",marginTop:"30px" }}>No Students left. Please add new ones using Add button or reload</h3>
         }
       </div>
-      <h4 className="mx-5">Showing {data.length} out of {data.length} entries</h4>
-
+      <div>
+      <h4 className="">Showing {data.length} out of {data.length} entries</h4>
+      </div>
       {add
         ? <Add addtoggle={setadd} setData={setData} Data={Data} />
         : console.log("showing main page")
