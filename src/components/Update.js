@@ -38,7 +38,7 @@ const Update = ({setupdate,updateuser,setData,Data}) => {
     }
     return (
         <div className="card p-3 " >
-        <h2>Add Student</h2>
+        <h2>Edit Student</h2>
         <form>
         <div className='linebreak'></div>
         <div className='input d-flex flex-column'>
@@ -63,8 +63,10 @@ const Update = ({setupdate,updateuser,setData,Data}) => {
         </div>
         <div className='linebreak'></div>
         <div className='buttons'>
-            <button onClick={(e)=>{e.preventDefault();setupdate(false)}} className='rounded-3'>CANCEL</button>
-            <button type='submit' onClick={(e)=>SubmitUser(e)} className='rounded-3'>SUBMIT</button>
+            <div></div>
+            <div className='btns'>
+            <button  onClick={(e)=>{e.preventDefault();setupdate(false)}} className='rounded-3'>CANCEL</button>
+            <button type='submit' onClick={(e)=>SubmitUser(e)} className='rounded-3'>SUBMIT</button></div>
         </div>
         </form>
         </div>

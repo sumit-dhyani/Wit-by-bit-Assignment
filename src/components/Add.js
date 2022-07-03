@@ -33,29 +33,31 @@ const Add = ({addtoggle,setData,Data}) => {
         <form>
         <div className='linebreak'></div>
         <div className='input d-flex flex-column'>
-            <label>STUDENT NAME</label>
+            <label className='titel'>STUDENT NAME</label>
             <input required onChange={(e)=>setname(e.target.value)} className='rounded-3' type='text'/>
         </div>
         <div className='input d-flex flex-column'>
-            <label>CLASS</label>
+            <label className='titel'>CLASS</label>
             <input required  onChange={(e)=>setClass(e.target.value)}  className='rounded-3' type='text'/>
         </div>
         <div className='input d-flex flex-column'>
-            <label>SCORE</label>
+            <label className='titel'>SCORE</label>
             <input required onChange={(e)=>setScore(e.target.value)}  className='rounded-3' type='text'/>
         </div>
         <div className='input d-flex flex-column'>
-            <label>RESULT</label>
+            <label className='titel'>RESULT</label>
             <label >{Score!==''?Score>30?'Passed':"failed":'-'}</label>
         </div>
         <div className='input d-flex flex-column'>
-            <label>GRADE</label>
+            <label className='titel'>GRADE</label>
             <label >{Score!==''?calcgrad():'-'}</label>
         </div>
         <div className='linebreak'></div>
         <div className='buttons'>
+            <div></div>
+            <div className='btns'>
             <button onClick={(e)=>{e.preventDefault();addtoggle(false)}} className='rounded-3'>CANCEL</button>
-            <button type='submit' onClick={(e)=>SubmitUser(e)} className='rounded-3'>SUBMIT</button>
+            <button type='submit' onClick={(e)=>SubmitUser(e)} className='rounded-3'>SUBMIT</button></div>
         </div>
         </form>
         </div>
