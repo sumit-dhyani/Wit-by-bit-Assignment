@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Wit-by-bit-Assignment/static/css/main.8769765a.css",
-    "main.js": "/Wit-by-bit-Assignment/static/js/main.2fd42988.js",
+    "main.css": "/Wit-by-bit-Assignment/static/css/main.baabe4c0.css",
+    "main.js": "/Wit-by-bit-Assignment/static/js/main.05eaed4a.js",
     "static/js/787.573ea6bb.chunk.js": "/Wit-by-bit-Assignment/static/js/787.573ea6bb.chunk.js",
     "index.html": "/Wit-by-bit-Assignment/index.html",
-    "main.8769765a.css.map": "/Wit-by-bit-Assignment/static/css/main.8769765a.css.map",
-    "main.2fd42988.js.map": "/Wit-by-bit-Assignment/static/js/main.2fd42988.js.map",
+    "main.baabe4c0.css.map": "/Wit-by-bit-Assignment/static/css/main.baabe4c0.css.map",
+    "main.05eaed4a.js.map": "/Wit-by-bit-Assignment/static/js/main.05eaed4a.js.map",
     "787.573ea6bb.chunk.js.map": "/Wit-by-bit-Assignment/static/js/787.573ea6bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8769765a.css",
-    "static/js/main.2fd42988.js"
+    "static/css/main.baabe4c0.css",
+    "static/js/main.05eaed4a.js"
   ]
 }
