@@ -9,7 +9,7 @@ const Update = ({setupdate,updateuser,setData,Data}) => {
         setName(obj[0].name);
         setClass(obj[0].class);
         setScore(obj[0].score);
-        console.log(name,Class,Score)
+        console.log(Class,Score)
         
     },[])
     const calcgrad=()=>{
